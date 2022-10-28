@@ -1,22 +1,74 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import '../Styles/linksec.scss';
+import React from "react";
+import "../Styles/linksec.scss";
 
 const LinkSec = () => {
   return (
     <>
       <section className="links_section">
         <ul>
-          <li id="twitter_link"><Link to={{pathname:}} Twitter Link</li>
-          <li id="btn_zuri">Zuri Team</li>
-          <li id="books">Zuri Books</li>
-          <li id="book_python">Python Books</li>
-          <li id="pitch">Background Check for Coders</li>
-          <li id="book_design">Design Books</li>
+          <li id="twitter_link">
+            <a
+              href="https://twitter.com/OpusunjuMoses"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Twitter Link
+            </a>
+          </li>
+          <li>
+            <a
+              id="btn_zuri"
+              href="https://training.zuri.team/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Zuri Team
+            </a>
+          </li>
+          <li>
+            <a
+              id="books"
+              href="https://books.zuri.team/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Zuri Books
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://books.zuri.team/"
+              id="book_python"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Python Books
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://background.zuri.team/"
+              id="pitch"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Background Check for Coders
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://books.zuri.team/design-rules"
+              id="book_design"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Design Books
+            </a>
+          </li>
         </ul>
       </section>
     </>
   );
-}
+};
 
-export default LinkSec
+export default LinkSec;

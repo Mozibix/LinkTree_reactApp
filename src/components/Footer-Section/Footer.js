@@ -8,13 +8,13 @@ const Footer = () => {
     <>
       <section className="footer">
         <div className="inner">
-          <div className="zuri_logo">
+          <div className="logo zuri_logo">
             <img src={zuri} alt="zuri-logo" />
           </div>
-          <div className="footer_text">
+          <div className="logo footer_text">
             <p>HNG Internship 9 Frontend Task</p>
           </div>
-          <div className="i4g_logo">
+          <div className="logo i4g_logo">
             <img src={i4g} alt="i4g-logo" />
           </div>
         </div>

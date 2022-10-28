@@ -1,4 +1,4 @@
-@import './colors.scss';
+@import "./colors.scss";
 
 * {
   margin: 0;
@@ -11,14 +11,17 @@ section {
   &.profile_section {
     display: flex;
     justify-content: center;
+    background-color: $bg;
 
     .user_info {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      inset: 0 1.7rem;
 
       #profile_img {
+        margin-bottom: 24px;
         img {
           height: 88px;
           width: 88px;
@@ -44,12 +47,23 @@ section {
     }
 
     .icon_section {
-      margin-left: 284px;
+      inset-inline-start: 284px;
+      
+      @media screen  and (max-width: 1088px) {
+           inset-inline-start: 85px;
+      }
       img {
+        cursor: pointer;
         &.desktop_icon {
+          @media screen and (max-width: 1088px) {
+            display: none;
+          }
         }
         &.mobile_icon {
           display: none;
+          @media screen and (max-width: 1088px) {
+            display: block;
+          }
         }
       }
     }

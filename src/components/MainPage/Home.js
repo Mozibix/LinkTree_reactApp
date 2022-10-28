@@ -1,4 +1,5 @@
 import React from "react";
+import '../Styles/home.scss';
 import Footer from "../Footer-Section/Footer";
 import LinkSec from "../Links-Section/LinkSec";
 import Profile from "../Profile-Section/Profile";
@@ -16,13 +17,13 @@ const Home = () => {
           <LinkSec />
         </section>
 
-              <section className="social_sec">
-                  <SocialSec/>
-              </section>
+        <section className="social_sec">
+          <SocialSec />
+        </section>
 
-              <section className="footer_sec">
-                  <Footer/>
-              </section>
+        <section className="footer_sec">                    
+          <Footer />
+        </section>
       </section>
     </>
   );

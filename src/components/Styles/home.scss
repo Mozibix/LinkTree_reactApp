@@ -1,0 +1,26 @@
+@import "./colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+section {
+  &.home {
+    background-color: $bg;
+    .user_profile {
+      margin-top: 64px;
+    }
+
+    .social_sec {
+      margin-top: 24px;
+    }
+
+    .footer_sec {
+      margin-top: 64px;
+      margin-bottom: 54px;
+    }
+  }
+}

@@ -21,7 +21,7 @@
 
     li {
       background-color: $links_bg;
-      cursor:pointer;
+      cursor: pointer;
       height: 76px;
       width: 1152px;
       margin: 24px 32px;
@@ -35,7 +35,18 @@
       font-weight: 500;
       line-height: 28px;
       letter-spacing: 0em;
-      color: $primary_text;
+      @media screen and (max-width: 1088px) {
+        width: 343px;
+        height: 68px;
+        font-family: Inter;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      a {
+        color: $primary_text;
+        text-decoration: none;
+      }
     }
   }
 }

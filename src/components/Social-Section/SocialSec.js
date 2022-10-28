@@ -1,12 +1,19 @@
 import React from "react";
-import '../Styles/socialsec.scss';
+import "../Styles/socialsec.scss";
+import git from "../images/git.png";
+import slack from "../images/slack.png";
+
 const SocialSec = () => {
   return (
     <>
       <section className="social_sec">
         <ul>
-          <li>Slack-Icon</li>
-          <li>GitHub-Icon</li>
+          <li>
+            <img src={slack} alt="slack" />
+          </li>
+          <li>
+            <img src={git} alt="git" />
+          </li>
         </ul>
       </section>
     </>
