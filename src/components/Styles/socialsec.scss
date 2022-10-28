@@ -1,0 +1,23 @@
+@import "./colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+section {
+  &.social_sec {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+
+      li {
+        margin-right: 24px;
+      }
+    }
+  }
+}

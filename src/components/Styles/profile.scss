@@ -1,0 +1,57 @@
+@import './colors.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+section {
+  &.profile_section {
+    display: flex;
+    justify-content: center;
+
+    .user_info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      #profile_img {
+        img {
+          height: 88px;
+          width: 88px;
+          border-radius: 275px;
+        }
+      }
+
+      #twitter {
+        p {
+          font-family: Inter;
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: $primary_text;
+        }
+      }
+
+      #slack {
+        display: none;
+      }
+    }
+
+    .icon_section {
+      margin-left: 284px;
+      img {
+        &.desktop_icon {
+        }
+        &.mobile_icon {
+          display: none;
+        }
+      }
+    }
+  }
+}

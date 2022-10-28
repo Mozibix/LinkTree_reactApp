@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../Styles/socialsec.scss';
 const SocialSec = () => {
   return (
     <>

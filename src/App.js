@@ -1,9 +1,10 @@
 import React from "react";
+import Home from "./components/MainPage/Home";
 
 function App() {
   return (
     <div className="App">
-      <p>Hello world</p>
+      <Home />
     </div>
   );
 }
